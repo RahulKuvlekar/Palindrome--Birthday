@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome-Birthday ?</title>
+    <link rel="stylesheet" href="./Assets/Style/component.css" />
+    <link rel="stylesheet" href="./Assets/Style/Style.css" />
+    <script
+      src="https://kit.fontawesome.com/dd35a950d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Assets/Script/app.js" type="module" defer></script>
+  </head>
+  <body>
+    <main id="main-1" class="flex-box fluid-container">
+      <nav class="navbar card-glass">
+        <h1 class="nav-brand">Is Your <span> Birthday PalinDrome ?</span></h1>
+        <a href="#main-2"
+          >Lets Check <i class="fas fa-caret-square-down"></i
+        ></a>
+      </nav>
+    </main>
+    <main id="main-2" class="flex-box">
+      <section>
+        <div class="fluid-container card-glass">
+          <h4 id="privacy-notice" class="card">
+            Privacy Notice :: We are not storing your data. ❌
+          </h4>
+          <h2>
+            Enter your birthdate and we will tell you if your birthdate is a
+            palindrome
+          </h2>
+          <div id="input-section">
+            <p>
+              This app checks your birthdate in MM/DD/YYYY format, DD/MM/YYYY, MM/DD/YY format e.g. if your birthdate is 01 April
+              1998, then app will check for 01041998, 04011998, 010498
+            </p>
+
+            <input type="date" name="" id="input-date" />
+            <button id="checkBtn" class="btn-alternate">Check</button>
+          </div>
+          <span id="errorMsg" class="notVisible">Please Check the Inputs</span>
+          
+          <img src="./Assets/loadImg2.gif" alt="Image" id="loadImg"
+          class="displayHidden card"/>
+          
+          <div id="output-section" class="notVisible card">
+            <h2></h2>
+            <!-- <img src="https://media.giphy.com/media/MarYoZ2BIJUimKydXa/giphy.gif" alt="> -->
+            <!-- <img src="https://media.giphy.com/media/jJQC2puVZpTMO4vUs0/giphy.gif" alt=""> -->
+          </div>
+          <div class="footer card">
+            <h3 class="footer-brand">Social Media Handles</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="https://github.com/RahulKuvlekar" target="_blank"
+                  ><i class="fab fa-github-square fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/RahulKuvlekar" target="_blank"
+                  ><i class="fab fa-twitter-square fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/rahulkuvlekar"
+                  target="_blank"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/rahul_kuvlekar_/"
+                  target="_blank"
+                  ><i class="fab fa-instagram-square fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
